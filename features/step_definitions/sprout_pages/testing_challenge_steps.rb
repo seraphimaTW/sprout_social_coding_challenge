@@ -6,7 +6,7 @@ When /^I fill in message editor with dynamic text$/ do
   end
 end
 
-Then /^I should see message popup editor$/ do
+Then /^I should see a message popup editor$/ do
   expect(page).to have_css('#compose-form .compose-actions button', text: 'Send')
 end
 
